@@ -1,0 +1,267 @@
+{
+    "uid": "ba815b0a-a2f0-48a7-bc5a-3ab9c16ebcde",
+    "provider": {
+        "identifier": "token",
+        "name": "google"
+    },
+    "wallets": [
+        {
+            "uid": "004b22bb-706f-4687-baba-94b84de99bf4",
+            "name": "test",
+            "supported_smart_contract": [],
+            "public_key": {
+                "public_key": "pubkey"
+            },
+            "status": "live"
+        },
+        {
+            "uid": "e20d787e-edfb-46aa-a6f1-10ad362a1e21",
+            "name": "test2",
+            "supported_smart_contract": [],
+            "public_key": {
+                "public_key": "pubkey2"
+            },
+            "status": "live"
+        }
+    ],
+    "identity_data": {
+        "firstname": "Toto",
+        "lastname": "Dupont",
+        "gender": "male",
+        "birth_date": "1990-01-01",
+        "birth_place": "Paris",
+        "address": {
+            "road_number": 5,
+            "lane": "Rue de Paris",
+            "region": "Seine-Saint-Denis",
+            "department": "Ile de France",
+            "city": "Saint-Denis",
+            "country": "France",
+            "zip_code": "93200",
+            "lat": 0,
+            "lng": 0
+        },
+        "photo": {
+            "url": "https://lien-photo.com",
+            "file_type": "jpeg",
+            "origin": "regula",
+            "status": 1
+        }
+    },
+    "verification": {
+        "document_processed": false,
+        "liveness_checked": false,
+        "financial_checked": false,
+        "address_checked": false,
+        "email_checked": false,
+        "phone_checked": false,
+        "website_url_checked": false,
+        "fb_url_checked": false,
+        "instagram_url_checked": false,
+        "twitter_url_checked": false,
+        "user_capacities_checked": false
+    },
+    "default_wallet_id": "null",
+    "tags": {
+        "labels": []
+    },
+    "status": "live",
+    "roles": {
+        "roles": [
+            {
+                "label": "user",
+                "description": "Basic PPM role"
+            },
+            {
+                "label": "owner",
+                "description": "Company owner"
+            }
+        ]
+    },
+    "occupation_in_company": "vice-president",
+    "communication_channels": {
+        "preferred_channel": "null",
+        "email": "bonjour@gmail.com",
+        "phone": "0610203040",
+        "website_url": "https://website.com",
+        "fb_url": "https://facebook.com",
+        "instagram_url": "https://instagram.com",
+        "twitter_url": "https://twitter.com"
+    },
+    "financial_informations": {
+        "fiscal_reference": "fiscal_ref",
+        "cat_scp": "null",
+        "yearly_income": [
+            {
+                "income": "10000",
+                "year": "2021"
+            },
+            {
+                "income": "15000",
+                "year": "2022"
+            }
+        ]
+    },
+    "payment_info": {
+        "cards": [
+            {
+                "digits": "1234",
+                "expire_month": "03",
+                "expire_year": "2024",
+                "psp": "BNP",
+                "token": "vcalzncnemaxz",
+                "firstname": "toto",
+                "lastname": "Dupont",
+                "friendly_name": "Main card"
+            },
+            {
+                "digits": "5678",
+                "expire_month": "03",
+                "expire_year": "2024",
+                "psp": "BNP",
+                "token": "vcalzncnemaxz",
+                "firstname": "toto",
+                "lastname": "Dupont",
+                "friendly_name": "Secondary card"
+            }
+        ],
+        "bank_accounts": [
+            {
+                "iban": "NL50BANK1234567890",
+                "bic": "BNPAFRPP",
+                "friendly_name": "main account",
+                "type": "",
+                "creation_date": "2022-01-02",
+                "bank_contact": {
+                    "name": "ebei",
+                    "counter_desk": "counter_desk",
+                    "address": {
+                        "road_number": 5,
+                        "lane": "Rue de Paris",
+                        "region": "Seine-Saint-Denis",
+                        "department": "Ile de France",
+                        "city": "Saint-Denis",
+                        "country": "France",
+                        "zip_code": "93200",
+                        "lat": 0,
+                        "lng": 0
+                    }
+                },
+                "is_resident": true,
+                "owner": {
+                    "firstname": "toto",
+                    "lastname": "dupont",
+                    "birth_date": "birth_date",
+                    "address": {
+                        "road_number": 5,
+                        "lane": "Rue de Paris",
+                        "region": "Seine-Saint-Denis",
+                        "department": "Ile de France",
+                        "city": "Saint-Denis",
+                        "country": "France",
+                        "zip_code": "93200",
+                        "lat": 0,
+                        "lng": 0
+                    },
+                    "gender": "male",
+                    "usage_lastname": "usage_lastname",
+                    "usage_firstname": "usage_firstname",
+                    "alias": "alias",
+                    "birth_department": "birth_department",
+                    "birth_place": "paris",
+                    "account_rights": "account_rights"
+                }
+            },
+            {
+                "iban": "NL50BANK1234567890",
+                "bic": "BNPAFRPP",
+                "friendly_name": "main account",
+                "type": "",
+                "creation_date": "2022-01-02",
+                "bank_contact": {
+                    "name": "ebei",
+                    "counter_desk": "counter_desk",
+                    "address": {
+                        "road_number": 5,
+                        "lane": "Rue de Paris",
+                        "region": "Seine-Saint-Denis",
+                        "department": "Ile de France",
+                        "city": "Saint-Denis",
+                        "country": "France",
+                        "zip_code": "93200",
+                        "lat": 0,
+                        "lng": 0
+                    }
+                },
+                "is_resident": true,
+                "owner": {
+                    "firstname": "toto",
+                    "lastname": "dupont",
+                    "birth_date": "birth_date",
+                    "address": {
+                        "road_number": 5,
+                        "lane": "Rue de Paris",
+                        "region": "Seine-Saint-Denis",
+                        "department": "Ile de France",
+                        "city": "Saint-Denis",
+                        "country": "France",
+                        "zip_code": "93200",
+                        "lat": 0,
+                        "lng": 0
+                    },
+                    "gender": "male",
+                    "usage_lastname": "usage_lastname",
+                    "usage_firstname": "usage_firstname",
+                    "alias": "alias",
+                    "birth_department": "birth_department",
+                    "birth_place": "paris",
+                    "account_rights": "account_rights"
+                }
+            }
+        ]
+    },
+    "profile_picture": {
+        "url": "https//www.photo.com",
+        "file_type": "jpeg",
+        "origin": "upload",
+        "status": "ok"
+    },
+    "documents": [
+        {
+            "uid": "004b22bb-706f-4687-baba-94b84de99bf4",
+            "url": "https://lien-doc.com",
+            "file_type": "pdf",
+            "origin": "regula",
+            "status": 0,
+            "filename": "cni",
+            "size": "",
+            "expire_date": "1970-01-01",
+            "metadata": {},
+            "document_processed": "null",
+            "tags": {
+                "labels": []
+            },
+            "confidentiality_level": "public"
+        }
+    ],
+    "favorites": [],
+    "visible": true,
+    "encrypted_private_keys": [
+        {
+            "private_encrypted_key": "privatekey",
+            "wallet_uid": "004b22bb-706f-4687-baba-94b84de99bf4"
+        },
+        {
+            "private_encrypted_key": "privatekey2",
+            "wallet_uid": "e20d787e-edfb-46aa-a6f1-10ad362a1e21"
+        },
+        {
+            "private_encrypted_key": "companyprivatekey",
+            "wallet_uid": "5277b813-92d8-42c7-9342-634317891104"
+        },
+        {
+            "private_encrypted_key": "companyprivatekey2",
+            "wallet_uid": "e9beba6c-f951-4bf7-acb2-e781a7fedd40"
+        }
+    ]
+}
